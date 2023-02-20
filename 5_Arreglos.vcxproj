@@ -128,9 +128,13 @@
   </ItemDefinitionGroup>
   <ItemGroup>
     <ClCompile Include="5_Arreglos.cpp" />
+    <ClCompile Include="ArregloFloat.cpp" />
+    <ClCompile Include="ArregloTemplate.cpp" />
   </ItemGroup>
   <ItemGroup>
     <ClInclude Include="Arreglo.h" />
+    <ClInclude Include="ArregloFloat.h" />
+    <ClInclude Include="ArregloTemplate.h" />
   </ItemGroup>
   <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
   <ImportGroup Label="ExtensionTargets">

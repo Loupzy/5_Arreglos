@@ -72,7 +72,7 @@ public:
         if (buffer != NULL)
         {
             memcpy(buffer, data, newSize * sizeof(int));
-
+            
             data = (int*)buffer;
             m_count = newSize;
             return 1;
